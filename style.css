@@ -57,6 +57,11 @@ h2 {
     background-color: rgb(143, 61, 61);
 }
 
+.facebook a {
+    color: antiquewhite;
+    background-color: rgb(81, 124, 165);
+}
+
 .instagram a {
     color: antiquewhite;
     background-color: rgb(190, 154, 111);

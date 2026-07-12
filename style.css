@@ -12,6 +12,7 @@ html {
     overflow-y: auto;               
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,6 +27,15 @@ body {
     border-radius: 20px;
     overflow: hidden;
     animation: fadeInUp 1s ease-out forwards; 
+}
+
+
+@media (max-width: 480px) {
+    body {
+        width: 90%;            
+        margin: 20px auto;     
+        box-sizing: border-box;
+    }
 }
 
 img {

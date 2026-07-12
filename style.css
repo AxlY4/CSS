@@ -1,0 +1,111 @@
+html {
+
+    background-image: url('assets/background.jpg');
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;   
+    background-attachment: fixed;   
+    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;               
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;      
+    margin: 40px auto;     
+    padding: 20px 15px;    
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(90, 51, 39, 0.774); 
+    border: 5px solid antiquewhite;
+    border-radius: 20px;
+    overflow: hidden;
+    animation: fadeInUp 1s ease-out forwards; 
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: antiquewhite;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.bio-text {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    text-align: center;
+    width: 85%;
+    max-width: 320px;
+    margin: 15px auto;
+    line-height:1.5;
+}
+
+.youtube a {
+    color: antiquewhite;
+    background-color: rgb(143, 61, 61);
+}
+
+.instagram a {
+    color: antiquewhite;
+    background-color: rgb(190, 154, 111);
+}
+
+.roblox a {
+background-color: rgb(170, 78, 78);;
+    color: antiquewhite;;
+}
+
+.steam a {
+background-color: #286997;
+    color: antiquewhite;;
+}
+
+.discord a {
+background-color: #6b7cb3;
+    color: antiquewhite;
+}
+
+h1 a {
+    display: inline-block;
+    width: 200px;            
+    padding: 12px 0;     
+    text-align: center;        
+    
+    background-color: #f6e4c2;    
+    color: #20351b;             
+    
+    border-radius: 12px;        
+    text-decoration: none;       
+    font-weight: bold;
+    
+    /* Sets up smooth animations for the bounce and shadows */
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+h1 a:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: -1;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

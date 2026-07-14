@@ -124,3 +124,17 @@ h1 a:hover {
         transform: translateY(0);
     }
 }
+
+.mobile-link {
+    display: none !important;
+}
+
+/* 2. When the screen gets small (phones/tablets), swap them */
+@media (max-width: 768px) {
+    .pc-link {
+        display: none !important;
+    }
+    .mobile-link {
+        display: block !important;
+    }
+}
